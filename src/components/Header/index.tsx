@@ -371,12 +371,6 @@ export default function Header() {
           <StyledNavLink id={`vote-nav-link`} to={'/claim'}>
             {t('Claim')}
           </StyledNavLink>
-          {/* <StyledExternalLink id={`info-nav-link`} href={ANALYTICS_PAGE}>
-            {t('header.charts')} <span style={{ fontSize: '11px' }}>↗</span>
-          </StyledExternalLink>
-          <StyledExternalLink id={`gov-nav-link`} href={'https://gov.pangolin.exchange'}>
-            {t('header.forum')} <span style={{ fontSize: '11px' }}>↗</span>
-          </StyledExternalLink>  */}
         </HeaderLinks>
       </HeaderRow>
       <HeaderControls>
